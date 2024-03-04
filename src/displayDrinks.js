@@ -16,8 +16,8 @@ const displayDrinks = ({drinks}) => {
                 <h3>martini</h3>
                 </article>
             </a>`
-    });
-    
+    }).join("");
+
 }
 
 export default displayDrinks;
