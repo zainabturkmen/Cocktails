@@ -7,7 +7,7 @@ const fetchDrinks = async (url) => {
         return data
     } catch (error) {
         console.log(error);
-    }
+    };
 };
 
 export default fetchDrinks;
