@@ -8,5 +8,6 @@ const input = get('[name="drink"]');
 
 form.addEventListener("keyup", (e)=>{
 e.preventDefault();
-console.log(input);
+if(!value) return;
+presentDrinks(`${baseURL}`)
 })
