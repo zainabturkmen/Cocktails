@@ -3,7 +3,7 @@ const setDrink = (section)=>{
     // e.preventDefault();
     const id = e.target.parentElement.dataset.id; 
     // JSON.stringify
-    localStorage.setItem("drink", id)
+    localStorage.setItem("drink", id);
  });
 };
 
