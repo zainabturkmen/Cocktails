@@ -7,7 +7,7 @@ const displayDrinks = ({drinks}) => {
         title.textContent = "sorry, no drinks matched your search";
         section.innerHTML = null;
         return;
-    }
+    };
 }
 
 export default displayDrinks;
