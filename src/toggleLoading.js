@@ -1,3 +1,3 @@
 import toggleLoading from "./getElement.js";
 
-const loading = get(".loading")
+const loading = get(".loading");
