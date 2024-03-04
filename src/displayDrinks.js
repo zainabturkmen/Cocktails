@@ -8,6 +8,16 @@ const displayDrinks = ({drinks}) => {
         section.innerHTML = null;
         return;
     };
+
+    const newDrinks = drinks.map((drink) => {
+        return ` <a href="drink.html">
+                <article class="cocktail" data-id="1">
+                <img src="./cocktail.jpg" alt="cocktail">
+                <h3>martini</h3>
+                </article>
+            </a>`
+    });
+    
 }
 
 export default displayDrinks;
