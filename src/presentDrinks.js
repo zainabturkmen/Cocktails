@@ -6,6 +6,6 @@ const showDrinks = async (url) => {
 
     // display drinks
     const section = await displyDrinks(data);
-}
+};
 
 export default showDrinks;
