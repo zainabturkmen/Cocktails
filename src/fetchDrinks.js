@@ -1,6 +1,6 @@
 import {showLoading} from "./toggleLoading.js"
 const fetchDrinks = async (url) => {
-    showLoading()
+    showLoading();
     try {
         const response = await fetch(url);
         const data = await response.json(); 
