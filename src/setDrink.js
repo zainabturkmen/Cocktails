@@ -5,6 +5,6 @@ const setDrink = (section)=>{
     // JSON.stringify
     localStorage.setItem("drink", id)
  })
-}
+};
 
 export default setDrink;
