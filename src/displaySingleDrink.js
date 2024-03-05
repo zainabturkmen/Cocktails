@@ -17,6 +17,14 @@ const displayDrinks = (data) => {
     const drinkName = get(".drink-name");
     const description = get(".drink-desc");
     const Ingredients = get(".drink-Ingredients");
+    img.src = image
+    document.title = name;
+    drinkName.textContent = name;
+    description.textContent = desc;
+    Ingredients.innerHTML = list.map((item)=>{
+        if (!item) return;
+        return `<li></li>`
+    })
 };
 
 export default displayDrinks;
