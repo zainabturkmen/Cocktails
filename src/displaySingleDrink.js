@@ -16,12 +16,12 @@ const displayDrinks = (data) => {
     const img = get(".drink-img");
     const drinkName = get(".drink-name");
     const description = get(".drink-desc");
-    const Ingredients = get(".drink-Ingredients");
+    const ingredients = get(".drink-ingredients");
     img.src = image
     document.title = name;
     drinkName.textContent = name;
     description.textContent = desc;
-    Ingredients.innerHTML = list.map((item)=>{
+    ingredients.innerHTML = list.map((item)=>{
         if (!item) return;
         return `<li><i class="far fa-check-square"></i>${item}</li>`
     }).join("");
