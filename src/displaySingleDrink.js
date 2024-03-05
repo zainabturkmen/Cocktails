@@ -4,9 +4,15 @@ import get from "./getElement.js";
 const displayDrinks = (data) => {
     hideLoading();
 
-    const dirnk = data.drinks[0];
-    const {strDrinkThumb:image, strDrink:name, strInstructions:desc} = dirnk;
-    console.log(dirnk);
+    const drink = data.drinks[0];
+    const {strDrinkThumb:image, strDrink:name, strInstructions:desc} = drink;
+    const list = [
+        drink.strIngredient1,
+        drink.strIngredient1,
+        drink.strIngredient1,
+        drink.strIngredient1,
+        drink.strIngredient1,
+    ]
 };
 
 export default displayDrinks;
