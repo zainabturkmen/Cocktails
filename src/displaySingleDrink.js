@@ -2,7 +2,8 @@ import {hideLoading} from "./toggleLoading.js";
 import get from "./getElement.js";
 
 const displayDrinks = (drink) => {
-    hideLoading()
+    hideLoading();
+    
     console.log(drink);
 };
 
