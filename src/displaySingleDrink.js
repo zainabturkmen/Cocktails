@@ -12,7 +12,8 @@ const displayDrinks = (data) => {
         drink.strIngredient3,
         drink.strIngredient4,
         drink.strIngredient5,
-    ]
+    ];
+    console.log(drink, list);
 };
 
 export default displayDrinks;
