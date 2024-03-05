@@ -23,8 +23,8 @@ const displayDrinks = (data) => {
     description.textContent = desc;
     Ingredients.innerHTML = list.map((item)=>{
         if (!item) return;
-        return `<li></li>`
-    })
+        return `<li>${item}</li>`
+    }).join("");
 };
 
 export default displayDrinks;
