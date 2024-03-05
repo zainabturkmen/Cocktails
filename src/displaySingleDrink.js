@@ -13,6 +13,10 @@ const displayDrinks = (data) => {
         drink.strIngredient4,
         drink.strIngredient5,
     ];
+    const img = get(".drink-img");
+    const drinkName = get(".drink-name");
+    const description = get(".drink-desc");
+    const Ingredients = get(".drink-Ingredients");
 };
 
 export default displayDrinks;
