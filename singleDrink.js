@@ -6,4 +6,4 @@ const presentDrink = async () => {
 
 };
 
-window.addEventListener("DOMContentLoaded", presentDrink)
+window.addEventListener("DOMContentLoaded", presentDrink);
